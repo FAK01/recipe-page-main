@@ -1,0 +1,173 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f3e5d8;
+    width: 100%;
+    height: 180vh;
+}
+
+
+
+.cont{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: "Outfit", sans-serif;
+    
+}
+p{
+    font-size: 13px;
+    color: #6b6361;
+    
+}
+.pte{
+    margin-bottom: 15px;
+}
+
+.card{
+    padding: 20px;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+}
+h1{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 25px;
+    margin: 15px 0;
+}
+.se1{
+    padding: 20px 0;
+    padding-left: 20px;
+    background-color: #fff7fc;
+    border-radius: 10px;
+    
+}
+.se1 h4{
+    color:  #712b47;
+    margin-bottom: 5px;
+}
+.se1 p{
+    margin-left: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    color: #6b6361;
+}
+.se1 p i{
+    margin-right: 15px;
+    font-size: 4px;
+    color: #5a233a;
+}
+.se1 p span{
+    color:#5e5453;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.se2{
+    margin: 20px 0;
+}
+.se2 h3 , .se3 h3 , .se4 h3{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 23px;
+    margin: 10px 0;
+    color: #8a4c37;
+}
+.se2 p{
+    display: flex;
+    align-items: center;
+    color: #6b6361;
+    margin-bottom: 8px;
+}
+.se2 p i{
+    margin-right: 25px;
+    color: #8a4c37;
+    font-size: 4px;
+}
+
+
+
+
+
+.se3{
+    margin: 20px 0;
+}
+ul{
+    list-style-type: none;
+    font-size: 13px;
+    color: #6b6361;
+}
+ul li{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: baseline;
+}
+ul li i{
+    margin-right: 20px;
+    font-size: 11px;
+    color: #8a4c37;
+    font-family: "Outfit", sans-serif;
+}
+ul li span{
+    font-weight: 700;
+}
+
+
+
+
+
+
+.se4{
+    margin: 20px 0;
+}
+.se4 .te{
+    margin-bottom: 20px;
+}
+.sd{
+    font-size: 16px;
+    margin: 10px 0;
+    margin-left: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+}
+.sd .tet{
+    color: #8a4c37;
+ font-weight: 700;
+}
+@media screen and (max-width: 600px) {
+    .cont{
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    .cont{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(0%, 0%);
+        border-radius: 0;
+    }
+    body{
+        height: 100%;
+    }
+}
